@@ -14,7 +14,7 @@ function dispatchBtnAction(e) {
 //         tech: text
 //     }
 // }
-const setTechnology = text => ({ type: "SET_TECHNOLOGY", text });
+const setTechnology = text => ({ type: "SET_TECHNOLOGY", tech: text });
 
 
 const ButtonGroup = ({ technologies }) => (
